@@ -170,6 +170,7 @@ void Vector::popFront() {
   _size--;
 }
 
+
 void Vector::erase(size_t pos, size_t count)
 {
     if((pos + count) >= _size)
