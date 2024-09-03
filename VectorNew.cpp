@@ -222,6 +222,9 @@ const ValueType& Vector::operator[](size_t idx) const
     return _data[idx];
 }
 
+
+
+
 long long Vector::find(const ValueType& value) const
 {
     long long par = -1;
